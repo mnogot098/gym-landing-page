@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+
+.header-menu > li {
+  cursor: pointer;
+}
+
+.header-menu > li:hover {
+  color: var(--orange);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
